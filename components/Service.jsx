@@ -1,7 +1,7 @@
 export const Service = ({ backgroundColor, imgSrc, imgWidth, title, description }) => {
     return (
-      <div className={` bg-${backgroundColor}-400  px-10 text-gray-100  text-gray-200 flex flex-col gap-2  py-14 w-full  overflow-hidden `}>
-        { imgSrc && imgWidth && <img src={ imgSrc } className={`  w-${imgWidth} self-center pb-12  `} alt="" /> }
+      <div className={` ${backgroundColor}  px-10 text-gray-100  text-gray-200 flex flex-col gap-2  py-14 w-full  overflow-hidden `}>
+        { imgSrc && imgWidth && <img src={ imgSrc } className={`  w-32 self-center pb-12  `} alt="" /> }
         <div className='flex '>
             <p className='font-bold text-4xl uppercase pb-2 max-w-min '>{ title }</p>
         </div>

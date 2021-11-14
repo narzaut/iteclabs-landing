@@ -29,7 +29,7 @@
         {
             "imgSrc": null,
             "imgWidth": null,
-            "backgroundColor": "gray",
+            "backgroundColor": "bg-gray-800",
             "title": "web app development",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd askdj kasd kasjd lajsd lajs lfjsal ajlskjd alksjd as kasjdl asjdl ajslk jgfasfklj asfkja klsjdal sjdalkaskj laksjd ",
             "buttonText": "Conocer mas"
@@ -37,7 +37,7 @@
         {
             "imgSrc": "/assets/mobile.svg",
             "imgWidth": "24",
-            "backgroundColor": "green",
+            "backgroundColor": "bg-green-400",
             "title": "mobile development",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
             "buttonText": "Conocer mas"
@@ -45,7 +45,7 @@
         {
             "imgSrc": "/assets/backend.svg",
             "imgWidth": "40",
-            "backgroundColor": "red",
+            "backgroundColor": "bg-red-400",
             "title": "scalable backend",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
             "buttonText": "Conocer mas"
@@ -53,7 +53,7 @@
         {
             "imgSrc": "/assets/quality.svg",
             "imgWidth": "32",
-            "backgroundColor": "yellow",
+            "backgroundColor": "bg-yellow-300",
             "title": "quality assurance",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
             "buttonText": "Conocer mas"
@@ -61,7 +61,7 @@
         {
             "imgSrc": "/assets/outsourcing.svg",
             "imgWidth": "32",
-            "backgroundColor": "blue",
+            "backgroundColor": "bg-blue-400",
             "title": "outsourcing",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
             "buttonText": "Conocer mas"
