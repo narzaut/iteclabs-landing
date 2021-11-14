@@ -1,0 +1,71 @@
+{
+	"navBar": {
+		"burgerMenu": {
+            "fontAwesomeIcon": "asdasd",
+            "values": [
+                "Option 1",
+                "Option 2",
+                "Option 3",
+                "Option 4"
+            ]
+        },
+        "logoPath": "/logo.png",
+        "contact": "Contacto"
+	},
+	"header": {
+        "title": "Tu proyecto, nuestros valores.",
+        "description": "Ofrecemos soluciones tecnologicas blabllabl askjdajskdj askd asdk",
+        "linkText": "Nuestros valores bla"
+    },
+    "about":{
+		"title": "Vamos a construirlo juntos.",
+        "textList": [
+            "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh hsja",
+            "Estamos para ayudarte cuando lo necesites",
+            "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh hsja"
+        ]
+	},
+	"services": [
+        {
+            "imgSrc": null,
+            "imgWidth": null,
+            "backgroundColor": "gray",
+            "title": "web app development",
+            "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd askdj kasd kasjd lajsd lajs lfjsal ajlskjd alksjd as kasjdl asjdl ajslk jgfasfklj asfkja klsjdal sjdalkaskj laksjd ",
+            "buttonText": "Conocer mas"
+        },
+        {
+            "imgSrc": "/assets/mobile.svg",
+            "imgWidth": "24",
+            "backgroundColor": "green",
+            "title": "mobile development",
+            "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
+            "buttonText": "Conocer mas"
+        },
+        {
+            "imgSrc": "/assets/backend.svg",
+            "imgWidth": "40",
+            "backgroundColor": "red",
+            "title": "scalable backend",
+            "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
+            "buttonText": "Conocer mas"
+        },
+        {
+            "imgSrc": "/assets/quality.svg",
+            "imgWidth": "32",
+            "backgroundColor": "yellow",
+            "title": "quality assurance",
+            "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
+            "buttonText": "Conocer mas"
+        },
+        {
+            "imgSrc": "/assets/outsourcing.svg",
+            "imgWidth": "32",
+            "backgroundColor": "blue",
+            "title": "outsourcing",
+            "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
+            "buttonText": "Conocer mas"
+        }
+        
+    ]
+}
