@@ -9,7 +9,7 @@ export const Service = ({ backgroundColor, imgSrc, title, description }) => {
             <p className='text-2xl '>{ description }</p>
         </div>
         <div className='flex w-full justify-end pt-8'>
-            <div className={`card-shadow font-bold bg-transparent hover:bg-white hover-text transition select-none cursor-pointer text-xl border p-2 rounded border-white`}>Conocer mas</div>
+            <div className={`card-shadow font-bold bg-transparent hover:bg-white hover-text transition select-none cursor-pointer text-xl border p-2 px-4 rounded border-white`}>Conocer mas</div>
         </div>
       </div>
     )

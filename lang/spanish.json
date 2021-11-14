@@ -1,5 +1,6 @@
 {
 	"navBar": {
+        "brandName":"Instituto Tecnologico Rio Cuarto",
 		"burgerMenu": {
             "fontAwesomeIcon": "asdasd",
             "values": [
