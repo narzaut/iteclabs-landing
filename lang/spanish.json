@@ -28,40 +28,35 @@
 	"services": [
         {
             "imgSrc": null,
-            "imgWidth": null,
-            "backgroundColor": "bg-gray-800",
+            "backgroundColor": "gray-card",
             "title": "web app development",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd askdj kasd kasjd lajsd lajs lfjsal ajlskjd alksjd as kasjdl asjdl ajslk jgfasfklj asfkja klsjdal sjdalkaskj laksjd ",
             "buttonText": "Conocer mas"
         },
         {
             "imgSrc": "/assets/mobile.svg",
-            "imgWidth": "24",
-            "backgroundColor": "bg-green-400",
+            "backgroundColor": "green-card",
             "title": "mobile development",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
             "buttonText": "Conocer mas"
         },
         {
             "imgSrc": "/assets/backend.svg",
-            "imgWidth": "40",
-            "backgroundColor": "bg-red-400",
+            "backgroundColor": "red-card",
             "title": "scalable backend",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
             "buttonText": "Conocer mas"
         },
         {
             "imgSrc": "/assets/quality.svg",
-            "imgWidth": "32",
-            "backgroundColor": "bg-yellow-300",
+            "backgroundColor": "yellow-card",
             "title": "quality assurance",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
             "buttonText": "Conocer mas"
         },
         {
             "imgSrc": "/assets/outsourcing.svg",
-            "imgWidth": "32",
-            "backgroundColor": "bg-blue-400",
+            "backgroundColor": "blue-card",
             "title": "outsourcing",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd",
             "buttonText": "Conocer mas"
