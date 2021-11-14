@@ -15,6 +15,10 @@ export default function Home() {
       <Head>
         <title>iTec Labs - Instituto Tecnologico Rio Cuarto</title>
         <link rel="icon" href="./assets/favicon.png" />        
+        <link 
+          href='https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap'
+          rel='stylesheet'
+        />
       </Head>
       {data && 
        <>

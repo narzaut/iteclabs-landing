@@ -6,7 +6,6 @@
 #  \___/____/____/··
 #  ·················
 */
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
 /* -------------------------------------------  */
 html, body{
   margin:0;
@@ -175,6 +174,7 @@ input:checked ~ .dot {
 
 .gray-card img{
 	width: 100px;
+	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));	/* Similar syntax to box-shadow */
 }
 
 .gray-card .hover-text:hover{
@@ -189,6 +189,8 @@ input:checked ~ .dot {
 
 .red-card img{
 	width: 160px;
+	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));	/* Similar syntax to box-shadow */
+
 }
 
 .red-card .hover-text:hover{
@@ -198,10 +200,13 @@ input:checked ~ .dot {
 
 .green-card{
 	background-color: rgb(93, 214, 109);	
+
 }
 
 .green-card img{
 	width: 90px;
+	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));	/* Similar syntax to box-shadow */
+
 }
 
 .green-card .hover-text:hover{
@@ -211,10 +216,13 @@ input:checked ~ .dot {
 
 .yellow-card{
 	background-color: rgb(216, 208, 91);	
+
 }
 
 .yellow-card img{
 	width: 120px;
+	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));	/* Similar syntax to box-shadow */
+
 }
 
 .yellow-card .hover-text:hover{
@@ -225,10 +233,13 @@ input:checked ~ .dot {
 
 .blue-card{
 	background-color: rgb(113, 179, 240);	
+	
 }
 
 .blue-card img{
 	width: 120px;
+	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));	/* Similar syntax to box-shadow */
+
 }
 
 .blue-card .hover-text:hover{
