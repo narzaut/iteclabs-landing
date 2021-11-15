@@ -28,6 +28,7 @@
 	},
 	"services": [
         {
+            "id": 1,
             "imgSrc": "/assets/web-development.png",
             "backgroundColor": "gray-card",
             "title": "web app development",
@@ -35,6 +36,7 @@
             "buttonText": "Conocer mas"
         },
         {
+            "id": 2,
             "imgSrc": "/assets/mobile.svg",
             "backgroundColor": "green-card",
             "title": "mobile development",
@@ -42,6 +44,7 @@
             "buttonText": "Conocer mas"
         },
         {
+            "id": 3,
             "imgSrc": "/assets/backend.svg",
             "backgroundColor": "red-card",
             "title": "scalable backend",
@@ -49,6 +52,7 @@
             "buttonText": "Conocer mas"
         },
         {
+            "id": 4,
             "imgSrc": "/assets/quality.svg",
             "backgroundColor": "yellow-card",
             "title": "quality assurance",
@@ -56,6 +60,7 @@
             "buttonText": "Conocer mas"
         },
         {
+            "id": 5,
             "imgSrc": "/assets/outsourcing.svg",
             "backgroundColor": "blue-card",
             "title": "outsourcing",
