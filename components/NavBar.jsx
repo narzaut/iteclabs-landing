@@ -29,9 +29,9 @@ export const NavBar = ({  navBar }) => {
     const wrapperRef = useRef(null);
     useOutsideAlerter(wrapperRef, setIsMenuDeployed);
 	return(
-		<nav ref={wrapperRef} class="lg:px-10 border-b border-gray-500 z-10 fixed  gap-4 flex-col md:flex-row bg-gray-200   w-full flex justify-between items-center text-gray-800 py-2  ">
-  	        <div className='w-full flex h-full relative z-10 '>
-                <div className='w-full flex px-4 z-10 '>
+		<nav ref={wrapperRef} class="bg-gray-200 flex lg:px-10 border-b border-gray-500 z-20 fixed  gap-4 flex-col md:flex-row  card-shadow   w-full flex justify-between items-center text-gray-800 py-2  ">
+  	        <div className='w-full flex h-full relative z-20 '>
+                <div className='w-full flex px-4 z-20 '>
                     <div onClick = {() => setIsMenuDeployed(!isMenuDeployed)} className='lg:hidden flex w-full w-1/3 items-center'>
                         <div className=''>
                             <FontAwesomeIcon icon={faEllipsisV} className='hover:text-red-400 w-2' />

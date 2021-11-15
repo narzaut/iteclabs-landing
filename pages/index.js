@@ -25,9 +25,12 @@ export default function Home() {
       {data && 
        <>
         <NavBar navBar={ data.navBar } />
-        <Header />
-        <About />
-        <Services services={ data.services } />
+        <div className='pt-24 '>
+          <Header />
+          <About />
+          <Services services={ data.services } />
+        </div>
+        
        </>
       }
      

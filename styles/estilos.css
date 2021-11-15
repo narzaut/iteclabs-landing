@@ -109,9 +109,8 @@ html, body{
 input[type="number"] {
 	-moz-appearance: textfield;
 }
-.glass{
-	background-color: rgba(255, 255, 255, 0.63);
-}
+
+
 
 .titillium-font{
 	font-family: 'Titillium Web', sans-serif;
@@ -169,7 +168,7 @@ input:checked ~ .dot {
 
 
 .gray-card{
-	background-color: #374151;	
+	background-color: #2B2B3A;	
 }
 
 .gray-card img{
@@ -184,7 +183,7 @@ input:checked ~ .dot {
 
 
 .red-card{
-	background-color: rgb(238, 117, 117);	
+	background-color: #FC526B;	
 }
 
 .red-card img{
@@ -194,12 +193,12 @@ input:checked ~ .dot {
 }
 
 .red-card .hover-text:hover{
-	color: rgb(238, 117, 117);
+	color: #FC526B;
 }
 
 
 .green-card{
-	background-color: rgb(93, 214, 109);	
+	background-color: #33B17C;	
 
 }
 
@@ -210,7 +209,7 @@ input:checked ~ .dot {
 }
 
 .green-card .hover-text:hover{
-	color: rgb(93, 214, 109);
+	color: #33B17C;
 }
 
 
@@ -226,13 +225,13 @@ input:checked ~ .dot {
 }
 
 .yellow-card .hover-text:hover{
-	color: rgb(216, 208, 91);
+	color: #EED633;
 }
 
 
 
 .blue-card{
-	background-color: rgb(113, 179, 240);	
+	background-color: #30CDED;	
 	
 }
 
@@ -243,5 +242,27 @@ input:checked ~ .dot {
 }
 
 .blue-card .hover-text:hover{
-	color: rgb(113, 179, 240);
+	color: #30CDED;
+}
+
+.backdrop-blur{
+	-webkit-backdrop-filter: blur(2px);
+	filter: blur(2px)
+}
+
+
+@media (min-width: 768px) { 
+	.blue-card img{
+		width: 240px;
+	}
+	.yellow-card img{
+		width: 240px;
+	}
+	.red-card img{
+		width: 320px;
+	}
+	.green-card img{
+		width: 180px;
+	}
+	
 }

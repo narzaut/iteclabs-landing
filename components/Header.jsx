@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <div className=" text-gray-300 flex text-shadow bg-gradient-to-b from-gray-800 to-gray-500 flex items-center justify-center gap-4  py-16 lg:py-32 mt-20 w-full text-center overflow-hidden ">
+    <div className="py-16 text-gray-300 flex text-shadow bg-gradient-to-b from-gray-800 to-gray-500 flex items-center justify-center gap-4 w-full text-center overflow-hidden ">
         <div className='w-2/3 flex items-center justify-between gap-8'>
           <div className='flex lg:w-1/2 items-center justify-center'>
             <div className='gap-6 flex flex-col lg:text-left text-center'>
