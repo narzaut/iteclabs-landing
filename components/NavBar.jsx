@@ -2,10 +2,34 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { faEllipsisV } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-export const NavBar = ({ navBar }) => {
+import { useRef, useEffect } from "react";
+
+function useOutsideAlerter(ref, setter) {
+    useEffect(() => {
+        /**
+         * Alert if clicked on outside of element
+         */
+        function handleClickOutside(event) {
+            if (ref.current && !ref.current.contains(event.target)) {
+                setter(false)
+            }
+        }
+  
+        // Bind the event listener
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            // Unbind the event listener on clean up
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [ref]);
+  }
+
+export const NavBar = ({  navBar }) => {
     const [isMenuDeployed, setIsMenuDeployed] = useState(false)
+    const wrapperRef = useRef(null);
+    useOutsideAlerter(wrapperRef, setIsMenuDeployed);
 	return(
-		<nav class="lg:px-10 border-b border-gray-500 z-10 fixed  gap-4 flex-col md:flex-row bg-gray-200   w-full flex justify-between items-center text-gray-800 py-2  ">
+		<nav ref={wrapperRef} class="lg:px-10 border-b border-gray-500 z-10 fixed  gap-4 flex-col md:flex-row bg-gray-200   w-full flex justify-between items-center text-gray-800 py-2  ">
   	        <div className='w-full flex h-full relative z-10 '>
                 <div className='w-full flex px-4 z-10 '>
                     <div onClick = {() => setIsMenuDeployed(!isMenuDeployed)} className='lg:hidden flex w-full w-1/3 items-center'>

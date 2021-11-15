@@ -7,11 +7,13 @@ import { About } from '../components/About'
 import { Services } from '../components/Services'
 
 
+
 export default function Home() {
   const data =  JSON.parse(JSON.stringify(jsonData));
-   
+
+
   return (
-    <div className="fadeIn flex flex-col min-h-screen bg-gray-700">
+    <div   className="fadeIn flex flex-col min-h-screen bg-gray-700">
       <Head>
         <title>iTec Labs - Instituto Tecnologico Rio Cuarto</title>
         <link rel="icon" href="./assets/favicon.png" />        
