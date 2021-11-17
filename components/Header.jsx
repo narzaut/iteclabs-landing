@@ -1,13 +1,13 @@
-export function Header() {
+export function Header({ header }) {
   return (
     <div className="py-16 text-gray-300 flex text-shadow bg-gradient-to-b from-gray-800 to-gray-500 flex items-center justify-center gap-4 w-full text-center overflow-hidden ">
         <div className='w-2/3 flex items-center justify-between gap-8'>
           <div className='flex lg:w-1/2 items-center justify-center'>
             <div className='gap-6 flex flex-col lg:text-left text-center'>
-              <p className='font-bold text-4xl lg:text-5xl uppercase '>Tu proyecto, nuestros valores.</p>
-              <p className='text-xl lg:text-2xl'>Ofrecemos soluciones tecnologicas blabllabl askjdajskdj askd asdk</p>
+              <p className='font-bold text-4xl lg:text-5xl uppercase '>{ header.title }</p>
+              <p className='text-xl lg:text-2xl'>{ header.description }</p>
               <div className='w-full flex items-center justify-center lg:justify-start'>
-                  <p className='cursor-pointer hover:text-blue-300 hover:border-blue-400 transition text-lg border-b border-gray-300 max-w-max'>Nuestros valores bla</p>
+                  <p className='cursor-pointer hover:text-blue-300 hover:border-blue-400 transition text-lg border-b border-gray-300 max-w-max'>{ header.linkText }</p>
               </div>
             </div>
             

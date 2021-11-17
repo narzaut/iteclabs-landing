@@ -5,7 +5,7 @@ import { NavBar } from '../components/NavBar'
 import { Header } from '../components/Header'
 import { About } from '../components/About'
 import { Services } from '../components/Services'
-
+import { Footer } from '../components/Footer';
 
 
 export default function Home() {
@@ -26,11 +26,11 @@ export default function Home() {
        <>
         <NavBar navBar={ data.navBar } />
         <div className='pt-24 '>
-          <Header />
-          <About />
+          <Header header={ data.header } />
+          <About about={ data.about } />
           <Services services={ data.services } />
+          <Footer footer={ data.footer } />
         </div>
-        
        </>
       }
      
