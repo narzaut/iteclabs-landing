@@ -68,5 +68,33 @@
             "buttonText": "Conocer mas"
         }
         
-    ]
+    ],
+    "footer": {
+        "contactDescription":  [
+
+			{
+				"value":"Wenceslao Tejerina Norte 783, Barrio Villa Dalcar, Río Cuarto",
+				"icon":"fas fa-map-pin"
+			},
+			{
+				"value":"labs@itecriocuarto.org.ar",
+				"icon":"fas fa-at"
+			},
+			{
+				"value":"itecriocuarto.org.ar",
+				"icon": "fab fa-github"
+			},
+			{
+				"value":"+54 3584 158246",
+				"icon":"fas fa-phone-alt"
+			}
+			
+			
+		],
+        "credits":{
+            "made": "Desarrollado por",
+            "by": "iTec Labs"
+        },
+        "copyright": "© 2021"
+    }
 }

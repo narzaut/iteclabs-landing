@@ -5,7 +5,7 @@ import { NavBar } from '../components/NavBar'
 import { Header } from '../components/Header'
 import { About } from '../components/About'
 import { Services } from '../components/Services'
-
+import { Footer } from '../components/Footer';
 
 
 export default function Home() {
@@ -29,8 +29,8 @@ export default function Home() {
           <Header />
           <About />
           <Services services={ data.services } />
+          <Footer data={ data.footer }/>
         </div>
-        
        </>
       }
      
