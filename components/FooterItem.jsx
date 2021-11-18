@@ -1,18 +1,18 @@
-import { faMap, faPhoneAlt, faAt } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaMapMarkedAlt } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 
 export const FooterItem = ({ item }) => {
 	return (
 		<a className='hover:text-green-400 flex gap-2 md:text-lg transition items-center justify-center outline-none select-none' href={``}>
-			<FontAwesomeIcon className='w-3 text-green-400' icon={
+			{
 				item.icon == 'at' ?
-					faAt
+					<MdEmail className='text-green-400'/>
 				: item.icon == 'map-pin' ?
-					faMap
+					<FaMapMarkedAlt className='text-green-400'/>
 				: item.icon == 'phone' &&
-					faPhoneAlt
-				
-			}/>
+					<BsFillTelephoneFill className='text-green-400'/>				
+			}
 			{ item.value }
 		</a>
 		
