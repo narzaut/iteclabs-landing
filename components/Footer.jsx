@@ -17,7 +17,7 @@ export const Footer = ({ footer }) => {
 					return (
 						<div className='cursor-pointer select-none hover:text-green-400 transition flex items-center justify-center gap-1 lg:gap-2'>
 							<div >
-								<FontAwesomeIcon className='w-4 lg:w-12' icon={
+								<FontAwesomeIcon size='3xl'  icon={
 									socialMedia.icon == 'facebook' ?
 										faFacebookSquare
 									: socialMedia.icon == 'instagram' ?
