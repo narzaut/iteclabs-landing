@@ -30,6 +30,7 @@ export default function Home() {
           <About about={ data.about } />
           <Services services={ data.services } />
           <Footer footer={ data.footer } />
+
         </div>
        </>
       }
