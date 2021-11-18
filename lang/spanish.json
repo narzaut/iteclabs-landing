@@ -1,13 +1,13 @@
 {
 	"navBar": {
-        "brandName":"Instituto Tecnologico Rio Cuarto",
+        "brandName":"iTec Rio Cuarto",
 		"burgerMenu": {
             "fontAwesomeIcon": "asdasd",
             "values": [
-                "Option 1",
-                "Option 2",
-                "Option 3",
-                "Option 4"
+                "About",
+                "Servicios",
+                "Trabajos",
+                "Equipo"
             ]
         },
         "logoPath": "/logo.png",
