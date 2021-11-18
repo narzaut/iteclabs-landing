@@ -29,7 +29,11 @@ export default function Home() {
           <Header header={ data.header } />
           <About about={ data.about } />
           <Services services={ data.services } />
+<<<<<<< HEAD
           <Footer footer={ data.footer } />
+=======
+          <Footer data={ data.footer }/>
+>>>>>>> 0e362f277b9a64982f8af6efa50055ccad6388a2
         </div>
        </>
       }
