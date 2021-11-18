@@ -1,7 +1,6 @@
 import { FooterItem } from './FooterItem'
-import {  faFacebookSquare , faYoutube, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowAltCircleUp  } from '@fortawesome/free-solid-svg-icons';
+import {AiFillInstagram, AiFillFacebook, AiFillYoutube} from 'react-icons/ai';
+import { BsFillArrowUpCircleFill } from 'react-icons/bs';
 export const Footer = ({ footer }) => {
 
 	return(
@@ -15,20 +14,19 @@ export const Footer = ({ footer }) => {
 			<div className='flex gap-2 lg:gap-8 py-2 lg:py-4 '>
 				{footer.socialMedia.map(socialMedia => {
 					return (
-						<div className='cursor-pointer select-none hover:text-green-400 transition flex items-center justify-center gap-1 lg:gap-2'>
+						<div className='cursor-pointer select-none hover:text-green-400 transition flex items-center justify-center gap-2'>
 							<div >
-								<FontAwesomeIcon size='3xl'  icon={
+								{
 									socialMedia.icon == 'facebook' ?
-										faFacebookSquare
+										<AiFillFacebook className='w-4 h-4 lg:w-8 lg:h-8'/>
 									: socialMedia.icon == 'instagram' ?
-										faInstagramSquare
+										<AiFillInstagram className='w-4 h-4 lg:w-8 lg:h-8'/>
 									: socialMedia.icon == 'youtube' && 
-										faYoutube
-									}
-								/>	
+										<AiFillYoutube className='w-4 h-4 lg:w-8 lg:h-8'/>
+								}
 							</div>
 							<div className='flex'>
-								<p className='uppercase text-xl lg:text-2xl'>{ socialMedia.value }</p>
+								<p className='uppercase text-lg lg:text-2xl'>{ socialMedia.value }</p>
 							</div>
 						</div>
 					)
@@ -42,7 +40,7 @@ export const Footer = ({ footer }) => {
 				</p>
 			</div>
 			<div className='h-12 w-12 rounded-full bg-gray-500 bg-opacity-60 glass  card-shadow transition-color hover:bg-gray-600 transition absolute  flex items-center justify-center cursor-pointer -top-5   animate-bounce' to='#home'>
-				<FontAwesomeIcon className='text-gray-100 hover:text-gray-200 ' icon={faArrowAltCircleUp} />
+				<BsFillArrowUpCircleFill />
 			</div>
 
 			<div className='border-t-4 px-12 pt-4 rounded border-green-400'>
