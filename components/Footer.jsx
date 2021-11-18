@@ -40,7 +40,7 @@ export const Footer = ({ footer }) => {
 				</p>
 			</div>
 			<div className='h-12 w-12 rounded-full bg-gray-500 bg-opacity-60 glass  card-shadow transition-color hover:bg-gray-600 transition absolute  flex items-center justify-center cursor-pointer -top-5   animate-bounce' to='#home'>
-				<BsFillArrowUpCircleFill />
+				<BsFillArrowUpCircleFill className='w-full h-full'/>
 			</div>
 
 			<div className='border-t-4 px-12 pt-4 rounded border-green-400'>
