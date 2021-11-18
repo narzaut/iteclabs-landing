@@ -16,8 +16,8 @@ export const Footer = ({ footer }) => {
 				{footer.socialMedia.map(socialMedia => {
 					return (
 						<div className='cursor-pointer select-none hover:text-green-400 transition flex items-center justify-center gap-1 lg:gap-2'>
-							<div className=''>
-								<FontAwesomeIcon  className='w-4 lg:w-6' icon={
+							<div >
+								<FontAwesomeIcon className='w-4 lg:w-12' icon={
 									socialMedia.icon == 'facebook' ?
 										faFacebookSquare
 									: socialMedia.icon == 'instagram' ?
