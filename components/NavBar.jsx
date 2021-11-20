@@ -32,7 +32,7 @@ export const NavBar = ({ navBar }) => {
 			<div className='w-full flex h-full  backdrop-blur '>
 				<div className='w-full flex px-4  '>
 					<div onClick={() => setIsMenuDeployed(!isMenuDeployed)} className='lg:hidden flex w-full w-1/3 items-center'>
-						<div className='cursor-pointer select-none hover:text-green-400 transition'>
+						<div className='outline-none cursor-pointer select-none hover:text-green-400 transition'>
 							<TiThMenu className='text-3xl' />
 						</div>
 					</div>
