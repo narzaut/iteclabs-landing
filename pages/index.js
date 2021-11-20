@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       {data && 
        <>
-        <div className='header z-20 flex h-screen'>
+        <div className='flex lg:min-h-screen flex-col'>
           <NavBar navBar={ data.navBar } />
           <Header header={ data.header } />
         </div>
