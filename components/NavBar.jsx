@@ -28,7 +28,7 @@ export const NavBar = ({ navBar }) => {
 	const wrapperRef = useRef(null);
 	useOutsideAlerter(wrapperRef, setIsMenuDeployed);
 	return (
-		<nav ref={wrapperRef} class=" bg-white bg-opacity-80 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row  card-shadow   w-full flex  text-gray-800   ">
+		<nav ref={wrapperRef} class=" bg-white bg-opacity-80 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row     w-full flex  text-gray-800   ">
 			<div className='w-full flex h-full  backdrop-blur py-2'>
 				<div className='w-full flex px-4  '>
 					<div onClick={() => setIsMenuDeployed(!isMenuDeployed)} className='lg:hidden flex w-full w-1/3 items-center'>
@@ -53,7 +53,7 @@ export const NavBar = ({ navBar }) => {
 					</div>
 					<div className='w-1/3 lg:w-1/4 flex items-center justify-end  '>
 						<Link href='/'>
-							<div className='bg-white bg-opacity-20 hover:text-white border border-gray-800 relative  card-shadow rounded p-2 px-4 hover:bg-green-400 transition '>
+							<div className='cursor-pointer bg-white bg-opacity-20 hover:text-white border border-gray-800 relative  card-shadow rounded p-2 px-4 hover:bg-green-400 transition '>
 								<a className='outline-none rounded font-bold  transition uppercase lg:text-xl'>{navBar.contact}</a>
 								<span class="absolute animate-ping flex -left-1 lg:-left-2 top-9 lg:top-10 rounded-full w-3 h-3 bg-green-400"></span>
 							</div>
