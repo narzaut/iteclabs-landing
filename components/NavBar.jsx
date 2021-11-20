@@ -36,7 +36,7 @@ export const NavBar = ({ navBar }) => {
 							<TiThMenu className='text-3xl' />
 						</div>
 					</div>
-					<div className='flex w-full w-1/3 lg:w-1/4  text-center items-center lg:justify-start justify-center'>
+					<div className='s flex w-full w-1/3 lg:w-1/4  text-center items-center lg:justify-start justify-center'>
 						<img className='w-20 h-20' src={`/assets/${navBar.logoPath}`} alt="" />
 						<p className='hidden lg:flex text-2xl pl-2 font-bold  px-8'> {navBar.brandName}</p>
 					</div>
