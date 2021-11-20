@@ -17,6 +17,28 @@ html, body{
 
 }
 
+.header{
+	position: relative;
+  	height: 100vh;
+  	min-height: 500px;
+  	width: 100%;
+  	background: #161415 url(/assets/header.jpg) no-repeat top center;
+  	background-size: cover !important;
+	-webkit-background-size: cover !important;
+  	text-align: center;
+  	overflow: hidden;
+}
+
+.glass {
+	background-color: rgba(0, 0, 0, 0.15);   
+	backdrop-filter: blur(5px);
+ }
+
+ .darker-glass{
+	background-color: rgba(0, 0, 0, 0.408);   
+	backdrop-filter: blur(5px);
+ }
+
 .bg-gray{
 	background-color: #2B2B2B;
 }

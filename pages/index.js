@@ -24,14 +24,14 @@ export default function Home() {
       </Head>
       {data && 
        <>
-        <NavBar navBar={ data.navBar } />
-        <div className='pt-24 '>
+        <div className='header z-20 flex h-screen'>
+          <NavBar navBar={ data.navBar } />
           <Header header={ data.header } />
+        </div>
           <About about={ data.about } />
           <Services services={ data.services } />
           <Footer footer={ data.footer } />
 
-        </div>
        </>
       }
      

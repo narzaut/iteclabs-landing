@@ -28,7 +28,7 @@ export const NavBar = ({ navBar }) => {
 	const wrapperRef = useRef(null);
 	useOutsideAlerter(wrapperRef, setIsMenuDeployed);
 	return (
-		<nav ref={wrapperRef} class=" bg-white bg-opacity-80 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row     w-full flex  text-gray-800   ">
+		<nav ref={wrapperRef} class="text-shadow text-white darker-glass bg-opacity-80 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row     w-full flex    ">
 			<div className='w-full flex h-full  backdrop-blur py-2'>
 				<div className='w-full flex px-4  '>
 					<div onClick={() => setIsMenuDeployed(!isMenuDeployed)} className='lg:hidden flex w-full w-1/3 items-center'>
@@ -45,7 +45,7 @@ export const NavBar = ({ navBar }) => {
 							return (
 								<div className='no-underline'>
 									<Link href='/'>
-										<a className='border-b-2 text-lg border-transparent hover:border-green-400 rounded smoothscroll font-bold text-gray-800 hover:text-green-400 transition    uppercase'>{option}</a>
+										<a className='border-b-2 text-lg border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
 									</Link>
 								</div>
 							)
