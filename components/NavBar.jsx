@@ -28,7 +28,7 @@ export const NavBar = ({ navBar }) => {
 	const wrapperRef = useRef(null);
 	useOutsideAlerter(wrapperRef, setIsMenuDeployed);
 	return (
-		<nav ref={wrapperRef} class="bg-white bg-opacity-90 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row  card-shadow   w-full flex  text-gray-800 py-2  ">
+		<nav ref={wrapperRef} class="bg-white bg-opacity-80 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row  card-shadow   w-full flex  text-gray-800 py-2  ">
 			<div className='w-full flex h-full  backdrop-blur '>
 				<div className='w-full flex px-4  '>
 					<div onClick={() => setIsMenuDeployed(!isMenuDeployed)} className='lg:hidden flex w-full w-1/3 items-center'>
@@ -63,7 +63,7 @@ export const NavBar = ({ navBar }) => {
 			</div>
 			{/* BURGER MENU */}
 			{isMenuDeployed &&
-				<div className='w-full transition fadeIn bg-opacity-80 lg:hidden fixed  z-0 bg-white w-full absolute top-24 py-8 card-shadow '>
+				<div className='backdrop-blur w-full transition fadeIn bg-opacity-80 lg:hidden fixed  z-0 bg-white w-full absolute top-24 py-8 card-shadow '>
 					<ul className='fadeInDown flex-col gap-6 flex pl-8 items-start justify-center ' id='nav' >
 						{navBar.burgerMenu.values.map(option => {
 							return <li className=''>
