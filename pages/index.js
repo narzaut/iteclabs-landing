@@ -13,7 +13,7 @@ export default function Home() {
 
 
   return (
-    <Html  className="fadeIn flex flex-col min-h-screen bg-gray-700">
+    <html lang='es' className="fadeIn flex flex-col min-h-screen bg-gray-700">
       <Head>
         <title>iTec Labs - Instituto Tecnologico Rio Cuarto</title>
         <link rel="icon" href="./assets/favicon.png" />        
@@ -43,6 +43,6 @@ export default function Home() {
        </body>
       }
      
-    </Html>
+    </html>
   )
 }
