@@ -37,7 +37,7 @@ export const NavBar = ({ navBar }) => {
 						</div>
 					</div>
 					<div className='flex w-full w-1/3 lg:w-1/4  text-center items-center lg:justify-start justify-center'>
-						<img className='w-20' src={`/assets/${navBar.logoPath}`} alt="" />
+						<img className='w-20 h-20' src={`/assets/${navBar.logoPath}`} alt="" />
 						<p className='hidden lg:flex text-2xl pl-2 font-bold  px-8'> {navBar.brandName}</p>
 					</div>
 					<div className='hidden lg:px-20 lg:flex items-center justify-between w-1/3 lg:w-2/4'>
@@ -45,7 +45,7 @@ export const NavBar = ({ navBar }) => {
 							return (
 								<div className='no-underline'>
 									<Link href='/'>
-										<a className='border-b-2 text-lg border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
+										<a href='#' className='border-b-2 text-lg border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
 									</Link>
 								</div>
 							)
@@ -54,7 +54,7 @@ export const NavBar = ({ navBar }) => {
 					<div className='w-1/3 lg:w-1/4 flex items-center justify-end  '>
 						<Link href='/'>
 							<div className='cursor-pointer bg-white bg-opacity-20 hover:text-white border border-gray-800 relative  card-shadow rounded p-2 px-4 hover:bg-green-400 transition '>
-								<a className='outline-none rounded font-bold  transition uppercase lg:text-xl'>{navBar.contact}</a>
+								<a href='#'  className='outline-none rounded font-bold  transition uppercase lg:text-xl'>{navBar.contact}</a>
 								<span class="absolute animate-ping flex -left-1 lg:-left-2 top-9 lg:top-10 rounded-full w-3 h-3 bg-green-400"></span>
 							</div>
 						</Link>
@@ -68,7 +68,7 @@ export const NavBar = ({ navBar }) => {
 						{navBar.burgerMenu.values.map(option => {
 							return <li className=''>
 								<Link href='/'>
-									<a className='border-b-2 border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
+									<a href='#' className='border-b-2 border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
 								</Link>
 							</li>
 						})}

@@ -22,7 +22,7 @@ html, body{
   	height: 100vh;
   	min-height: 500px;
   	width: 100%;
-  	background: #161415 url(/assets/header.jpg) no-repeat top center;
+  	background: #161415 url(/assets/header.webp) no-repeat top center;
   	background-size: cover !important;
 	-webkit-background-size: cover !important;
   	text-align: center;

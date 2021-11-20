@@ -3,7 +3,7 @@ export const Service = ({ backgroundColor, imgSrc, title, description }) => {
       <div className={` ${backgroundColor} px-4 lg:px-20 text-white flex flex-col lg:flex-row gap-2  py-14 lg:py-20 w-full  overflow-hidden `}>
         <div className='flex w-full flex-col lg:flex-row'>
           <div className={` pb-12 lg:pb-0 lg:w-1/3 flex justify-center`}>
-            { imgSrc  && <img src={ imgSrc }  className='' alt="" /> }
+            { imgSrc  && <img src={ imgSrc } className='' alt="" /> }
           </div>
           <div className='flex flex-col lg:w-2/3 pl-4'>
             <div className='flex text-shadow'>

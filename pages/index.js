@@ -13,7 +13,7 @@ export default function Home() {
 
 
   return (
-    <div   className="fadeIn flex flex-col min-h-screen bg-gray-700">
+    <Html  className="fadeIn flex flex-col min-h-screen bg-gray-700">
       <Head>
         <title>iTec Labs - Instituto Tecnologico Rio Cuarto</title>
         <link rel="icon" href="./assets/favicon.png" />        
@@ -21,9 +21,17 @@ export default function Home() {
           href='https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap'
           rel='stylesheet'
         />
+        <meta 
+          name="description"
+          content="
+            Author: Ignacio Arzaut,
+            Company: iTec Labs,
+            Category: Software Development
+          "
+        />
       </Head>
       {data && 
-       <>
+       <body>
         <div className='flex lg:min-h-screen flex-col'>
           <NavBar navBar={ data.navBar } />
           <Header header={ data.header } />
@@ -32,9 +40,9 @@ export default function Home() {
           <Services services={ data.services } />
           <Footer footer={ data.footer } />
 
-       </>
+       </body>
       }
      
-    </div>
+    </Html>
   )
 }

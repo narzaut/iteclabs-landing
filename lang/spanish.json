@@ -10,7 +10,7 @@
                 "Equipo"
             ]
         },
-        "logoPath": "/logo.png",
+        "logoPath": "/logo.webp",
         "contact": "Contacto"
 	},
 	"header": {
@@ -30,7 +30,7 @@
 	"services": [
         {
             "id": 1,
-            "imgSrc": "/assets/web-development.png",
+            "imgSrc": "/assets/web-development.webp",
             "backgroundColor": "gray-card",
             "title": "web app development",
             "description": "Nuestros valores bla aspdoa sda kjs ajsdh as ajshdjhhs hasjd hkasdh asd asd asd asd asdfg ksadjfksdjf skdjf skdjf lakjsd askdj kasd kasjd lajsd lajs lfjsal ajlskjd alksjd as kasjdl asjdl ajslk jgfasfklj asfkja klsjdal sjdalkaskj laksjd ",
