@@ -1,7 +1,7 @@
 export function Header({ header }) {
   return (
-    <div className="header py-16 text-gray-300 flex text-shadow bg-gradient-to-b from-gray-800 to-gray-500 flex items-center pt-24 justify-center gap-4 w-full text-center overflow-hidden ">
-        <div className=' backdrop-filter rounded darker-glass card-shadow w-5/6 lg:w-4/5 p-14 py-20 lg:py-14 flex items-center justify-between gap-8'>
+    <div className="header py-16 text-gray-300 flex text-shadow bg-gradient-to-b from-gray-800 to-gray-500 flex items-center  justify-center gap-4 w-full text-center overflow-hidden ">
+        <div className='mt-24 backdrop-filter rounded darker-glass card-shadow w-5/6 lg:w-4/5 p-14 py-20 lg:py-14 flex items-center justify-between gap-8'>
           <div className='flex lg:w-1/2 items-center justify-center'>
             <div className='gap-6 flex flex-col lg:text-left text-center'>
               <p className='font-bold text-4xl lg:text-5xl uppercase '>{ header.title }</p>
