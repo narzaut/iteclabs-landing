@@ -28,7 +28,7 @@ export const NavBar = ({ navBar }) => {
 	const wrapperRef = useRef(null);
 	useOutsideAlerter(wrapperRef, setIsMenuDeployed);
 	return (
-		<nav ref={wrapperRef} class="bg-white bg-opacity-80 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row  card-shadow   w-full flex  text-gray-800 py-2  ">
+		<nav ref={wrapperRef} class="bg-white bg-opacity-90 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row  card-shadow   w-full flex  text-gray-800 py-2  ">
 			<div className='w-full flex h-full  backdrop-blur '>
 				<div className='w-full flex px-4  '>
 					<div onClick={() => setIsMenuDeployed(!isMenuDeployed)} className='lg:hidden flex w-full w-1/3 items-center'>
@@ -53,7 +53,7 @@ export const NavBar = ({ navBar }) => {
 					</div>
 					<div className='w-1/3 lg:w-1/4 flex items-center justify-end  '>
 						<Link href='/'>
-							<div className='bg-white bg-opacity-40 hover:text-white border border-gray-800 relative cursor-pointer select-none card-shadow rounded p-2 px-4 hover:bg-green-400 transition '>
+							<div className='bg-white bg-opacity-20 hover:text-white border border-gray-800 relative cursor-pointer select-none card-shadow rounded p-2 px-4 hover:bg-green-400 transition '>
 								<a className='outline-none rounded font-bold  transition uppercase lg:text-xl'>{navBar.contact}</a>
 								<span class="absolute animate-ping flex -left-1 lg:-left-2 top-9 lg:top-10 rounded-full w-3 h-3 bg-green-400"></span>
 							</div>
@@ -63,8 +63,8 @@ export const NavBar = ({ navBar }) => {
 			</div>
 			{/* BURGER MENU */}
 			{isMenuDeployed &&
-				<div className='w-1/2 transition fadeIn bg-opacity-80 lg:hidden fixed  z-0 bg-white w-full absolute top-24 py-8 card-shadow rounded-br '>
-					<ul className='fadeInDown flex-col gap-6 flex items-center justify-center ' id='nav' >
+				<div className='w-full transition fadeIn bg-opacity-80 lg:hidden fixed  z-0 bg-white w-full absolute top-24 py-8 card-shadow '>
+					<ul className='fadeInDown flex-col gap-6 flex pl-8 items-start justify-center ' id='nav' >
 						{navBar.burgerMenu.values.map(option => {
 							return <li className=''>
 								<Link href='/'>
