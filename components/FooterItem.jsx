@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const FooterItem = ({ item }) => {
 	return (
 			<Link href='/'>
-				<a className='hover:text-green-400 flex gap-2 md:text-lg transition items-center justify-center outline-none select-none' href={``}>
+				<a href='/' className='hover:text-green-400 flex gap-2 md:text-lg transition items-center justify-center outline-none select-none' href={``}>
 					{
 						item.icon == 'at' ?
 							<MdEmail className='text-green-400'/>
