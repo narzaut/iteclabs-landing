@@ -31,7 +31,7 @@ export const NavBar = ({ navBar }) => {
 		<nav ref={wrapperRef} class="bg-white bg-opacity-80 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row  card-shadow   w-full flex  text-gray-800 py-2  ">
 			<div className='w-full flex h-full  backdrop-blur '>
 				<div className='w-full flex px-4  '>
-					<div onClick={() => setIsMenuDeployed(!isMenuDeployed)} className='lg:hidden flex w-full w-1/3 items-center'>
+					<div onClick={() => setIsMenuDeployed(!isMenuDeployed)} className='outline-none cursor-pointer select-none lg:hidden flex w-full w-1/3 items-center'>
 						<div className='outline-none cursor-pointer select-none hover:text-green-400 transition'>
 							<TiThMenu className='text-3xl' />
 						</div>
