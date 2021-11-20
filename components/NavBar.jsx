@@ -63,7 +63,7 @@ export const NavBar = ({ navBar }) => {
 			</div>
 			{/* BURGER MENU */}
 			{isMenuDeployed &&
-				<div className='backdrop-blur w-full transition fadeIn bg-opacity-80 lg:hidden fixed  z-0 bg-white w-full absolute top-24 py-8 '>
+				<div className='backdrop-blur w-full transition fadeIn bg-opacity-80 lg:hidden fixed  z-0 bg-white w-full absolute top-24 py-8 -mt-px '>
 					<ul className=' fadeInDown flex-col gap-6 flex pl-8 items-start justify-center ' id='nav' >
 						{navBar.burgerMenu.values.map(option => {
 							return <li className=''>
