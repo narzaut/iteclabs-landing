@@ -7,5 +7,5 @@ export default function dataAPI(req, res) {
     //Valida que el query exista
     if (!jsonFiles.includes(`${req.query.route}.json`)) return res.status(404).json({ status:404, message: 'Bad query/param' })
     //Response
-    res.status(200).json(require(`../../../lang/spanish/${req.query.route}.json`))
+    res.status(200).json(require(`../../../lang/spanish/${req.query.route}`))
 }
