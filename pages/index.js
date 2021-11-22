@@ -40,7 +40,7 @@ export default function Home( { home } ) {
 
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api/data/home')
+  const res = await fetch('https://iteclabs-landing.vercel.app/api/data/home')
   const home = await res.json()
   return {
     props: {

@@ -9,7 +9,7 @@ export default function Contact({ contact }) {
 
 export async function getStaticProps() {
 
-    const res = await fetch('http://localhost:3000/api/data/contact')
+    const res = await fetch('https://iteclabs-landing.vercel.app/api/data/home')
     const contact = await res.json()
 
     return {
