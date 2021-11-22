@@ -3,10 +3,10 @@ import { useWindowSize } from "../hooks/useWindowSize"
 export const Services = ({ services }) => {
     const window = useWindowSize()
     return (
-        <div className=''>
+        <div id='servicios' className=''>
             {
                 services.map(service => {
-                    return <Service backgroundColor={ service.backgroundColor } imgSrc={ (service.id == 1 && window.width < 768) ? null : service.imgSrc } imgWidth={ service.imgWidth } title={ service.title } description={ service.description } />
+                    return <Service id={ service.id } backgroundColor={ service.backgroundColor } imgSrc={ (service.id == 1) ? null : service.imgSrc } imgWidth={ service.imgWidth } title={ service.title } description={ service.description } />
                 })
             }
         </div>

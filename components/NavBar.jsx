@@ -27,7 +27,7 @@ export const NavBar = ({ navBar }) => {
 	const [isMenuDeployed, setIsMenuDeployed] = useState(false)
 	const wrapperRef = useRef(null);
 	useOutsideAlerter(wrapperRef, setIsMenuDeployed);
-	
+
 	return (
 		<nav ref={wrapperRef} class="text-shadow text-white darker-glass bg-opacity-80 z-10 flex lg:px-10 border-b border-gray-500 fixed  gap-4 flex-col md:flex-row     w-full flex    ">
 			<div className='w-full flex h-full  backdrop-blur py-2'>
@@ -42,12 +42,10 @@ export const NavBar = ({ navBar }) => {
 						<p className='hidden lg:flex text-2xl pl-2 font-bold  px-8'> {navBar.brandName}</p>
 					</div>
 					<div className='hidden lg:px-20 lg:flex items-center justify-between w-1/3 lg:w-2/4'>
-						{navBar.burgerMenu.values.map(option => {
+						{navBar.burgerMenu.services.map(option => {
 							return (
 								<div className='no-underline'>
-									<Link href='/'>
-										<a href='#' className='border-b-2 text-lg border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
-									</Link>
+									<a href={`#${option}`} className='border-b-2 text-lg border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
 								</div>
 							)
 						})}
@@ -66,11 +64,11 @@ export const NavBar = ({ navBar }) => {
 			{isMenuDeployed &&
 				<div className='backdrop-blur darker-glass w-full transition fadeIn bg-opacity-80 lg:hidden fixed  z-0 bg-white w-full absolute top-24 py-8 -mt-px '>
 					<ul className=' fadeInDown flex-col gap-6 flex pl-8 items-start justify-center ' id='nav' >
-						{navBar.burgerMenu.values.map(option => {
+						{navBar.burgerMenu.services.map(option => {
 							return <li className=''>
-								<Link href='/'>
-									<a href='#' className='border-b-2 border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
-								</Link>
+								<div className='no-underline'>
+									<a href={`#${option}`} className='border-b-2 text-lg border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
+								</div>
 							</li>
 						})}
 					</ul>

@@ -27,10 +27,8 @@ export default function Home( { home } ) {
       </Head>
       {home && 
        <body>
-        <div className='flex lg:min-h-screen flex-col'>
           <NavBar navBar={ home.navBar } />
           <Header header={ home.header } />
-        </div>
           <About about={ home.about } />
           <Services services={ home.services } />
           <Footer footer={ home.footer } />

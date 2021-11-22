@@ -154,32 +154,28 @@ input[type="number"] {
 	
 }
 
-.lds-dual-ring-blue {
+.levitate {
 
-  width: 36px;
-  height: 36px;
-  border-radius: 99%;
-  border: 4px solid;
-  border-color: #003560  #003560 transparent;
-  animation: lds-dual-ring 0.7s linear infinite;
+  animation: levitate 3.5s ease-in-out infinite;
 	
 }
 
-@keyframes lds-dual-ring {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+@keyframes levitate {
+	0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }   
 }
 
 input:checked ~ .dot {
   transform: translateX(100%);
 }
 
+div {
+    scroll-margin-top: 6rem
+}
+
 .bg-web-dev{
-  background-color: #2B2B3A
+  background-image: url('/assets/web-development.webp');
 }
 
 .shadow {
