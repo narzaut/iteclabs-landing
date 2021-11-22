@@ -3,7 +3,7 @@ import { useWindowSize } from "../hooks/useWindowSize"
 export const Service = ({ id, backgroundColor, imgSrc, title, description }) => {
   const window = useWindowSize()
   return (
-      <div className={` ${id == 1 && window.width < 768 ? 'gray-card' : backgroundColor} gray-card px-4 lg:px-20 text-white flex flex-col lg:flex-row gap-2  py-14 lg:py-20 w-full  overflow-hidden `}>
+      <div className={` ${id == 1 && window.width <= 768 ? 'gray-card' : backgroundColor} gray-card px-4 lg:px-20 text-white flex flex-col lg:flex-row gap-2  py-14 lg:py-20 w-full  overflow-hidden `}>
         <div className='flex w-full flex-col lg:flex-row'>
           <div className={` pb-12 lg:pb-0 lg:w-1/3 flex justify-center`}>
             { imgSrc  && <img src={ imgSrc } className='w-screen' alt="asd" /> }

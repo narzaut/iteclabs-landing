@@ -67,7 +67,7 @@ export const NavBar = ({ navBar }) => {
 						{navBar.burgerMenu.services.map(option => {
 							return <li className=''>
 								<div className='no-underline'>
-									<a href={`#${option}`} className='border-b-2 text-lg border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
+									<a onClick = { () => setIsMenuDeployed(false) } href={`#${option}`} className='border-b-2 text-lg border-transparent hover:border-green-400 rounded smoothscroll font-bold  hover:text-green-400 transition    uppercase'>{option}</a>
 								</div>
 							</li>
 						})}

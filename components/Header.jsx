@@ -1,7 +1,7 @@
 export function Header({ header }) {
   return (
     <div className="relative header py-16 text-gray-300 flex flex-col text-shadow bg-gradient-to-b from-gray-800 to-gray-500 flex items-center  justify-center gap-4 w-full text-center overflow-hidden ">
-      <div className='mt-24 rounded darker-glass backdrop-blur w-5/6 lg:w-4/5 p-14 py-20 lg:py-18 flex items-center justify-between gap-8'>
+      <div className='card-shadow mt-24 rounded-2xl lg:rounded darker-glass backdrop-blur w-5/6 lg:w-4/5 px-4 lg:px-14 py-12 lg:py-18 flex items-center justify-between gap-8'>
         <div className='flex'>
           <div className='flex lg:w-1/2 items-center justify-center'>
             <div className='gap-6 flex flex-col lg:text-left text-center'>
