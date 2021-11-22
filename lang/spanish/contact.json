@@ -1,0 +1,15 @@
+{
+	"main": {
+        "brandName":"iTec Rio Cuarto",
+		"burgerMenu": {
+            "fontAwesomeIcon": "asdasd",
+            "values": [
+                "About",
+                "Servicios",
+                "Trabajos",
+                "Equipo"
+            ]
+        },
+        "contact": "Contacto"
+	}
+}

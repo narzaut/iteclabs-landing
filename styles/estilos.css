@@ -35,7 +35,7 @@ html, body{
  }
 
  .darker-glass{
-	background-color: rgba(0, 0, 0, 0.408);   
+	background-color: rgba(0, 0, 0, 0.558);   
  }
 
 .bg-gray{
@@ -267,8 +267,8 @@ input:checked ~ .dot {
 }
 
 .backdrop-blur{
-	-webkit-backdrop-filter: blur(2px);
-	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(7px);
+	backdrop-filter: blur(7px);
 }
 
 
